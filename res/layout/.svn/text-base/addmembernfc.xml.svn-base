@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+		<ToggleButton
+		    android:id="@+id/toggleinvite"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textOn="Send Invite"
+		    android:textOff="Send Invite"/>
+
+    </LinearLayout>
+
+	<ToggleButton
+	    android:id="@+id/togglereceive"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:textOn="Receive Invite" 
+	    android:textOff="Receive Invite"/>
+
+</LinearLayout>

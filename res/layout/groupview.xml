@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+   
+ 
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical">
+    	<TextView
+        	android:id="@+id/gruppe"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content"
+        	android:text="Group:"/>
+	    <TextView
+    	    android:id="@+id/veranstaltung"
+			android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+        	android:text="Course:"/>
+        	
+        <TextView 
+        	android:id="@+id/info"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Information:"/>
+
+        <View 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="2dip" 
+        	android:background="#FFFFFFFF" />
+        				
+	</LinearLayout>
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:fillViewport="true">
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical">
+		<TextView
+        android:id="@+id/member"
+        android:textSize="16dp"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:text="Members:"/>
+        
+			
+
+		
+	<Button
+	android:id="@+id/ShowAllPersons"
+	android:text="Show all persons"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/EditGroup"
+	android:text="Edit group"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/LeaveGroup"
+	android:text="Leave group"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/DeleteGroup"
+	android:text="Delete group"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/WriteMessage"
+	android:text="Write message"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

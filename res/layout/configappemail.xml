@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+        <EditText
+    	android:id="@+id/editEmail"
+    	android:hint="E-Mail-Address..."
+    	android:textSize="16dp"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+		<Spinner  
+		android:id="@+id/spinner1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_x="70px" 
+		android:layout_y="42px">                                            
+		</Spinner>
+		
+        <EditText
+        android:password="true" 
+        android:id="@+id/Pass"
+    	android:hint="Password..."
+    	android:textSize="16dp"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+		<CheckBox 
+		android:id="@+id/enableMail"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:text=" enable mailaccess"
+		android:checked="true"/>
+		
+		<CheckBox 
+		android:id="@+id/WifiOnly"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:text=" check mails only over wifi"
+		android:checked="false"/>
+		
+		<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1">
+		
+			<TextView android:id="@+id/UpdateIntervall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="Check mails every "/>
+		
+			<TextView android:id="@+id/progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+			
+		</LinearLayout>
+		
+		<SeekBar
+		android:id="@+id/seek_bar"
+ 		android:padding="4dip"
+ 		android:progress="5"
+ 		android:max="10"
+ 		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+
+		<Button
+        android:id="@+id/upateEmail"
+        android:text="Save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+	</LinearLayout>
+
+</LinearLayout>

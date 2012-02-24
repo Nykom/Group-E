@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities
+END
+ShowCourseGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ShowCourseGroups.java
+END
+WriteMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/WriteMessage.java
+END
+GroupUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/GroupUpdate.java
+END
+HandleManuelInv.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/HandleManuelInv.java
+END
+EditCourse.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/EditCourse.java
+END
+NewCourseGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/NewCourseGroup.java
+END
+ViewMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ViewMessage.java
+END
+HandleAck.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/HandleAck.java
+END
+AddMemberEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/AddMemberEmail.java
+END
+CourseView.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/CourseView.java
+END
+EditPerson.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/EditPerson.java
+END
+AddMemberManuel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/AddMemberManuel.java
+END
+PersonView.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/PersonView.java
+END
+CreateCourse.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/CreateCourse.java
+END
+AddMemberNFC.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/AddMemberNFC.java
+END
+ConfigUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ConfigUser.java
+END
+CreateCourseGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/CreateCourseGroups.java
+END
+CourseGroupView.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/CourseGroupView.java
+END
+GroupView.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/GroupView.java
+END
+CreateGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/CreateGroup.java
+END
+WriteToTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/WriteToTag.java
+END
+MemberLeftGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/MemberLeftGroup.java
+END
+ConfigMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ConfigMain.java
+END
+AddMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/AddMember.java
+END
+BuildGroupNfc.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/BuildGroupNfc.java
+END
+ConfigEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ConfigEmail.java
+END
+ShowAllPersons.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ShowAllPersons.java
+END
+ShowAllCourseMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/ShowAllCourseMember.java
+END
+Courses.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/Courses.java
+END
+EditGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/EditGroup.java
+END
+GroupEActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/GroupEActivity.java
+END
+CreateCourseNFC.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/CreateCourseNFC.java
+END
+HandleInvite.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/activities/HandleInvite.java
+END

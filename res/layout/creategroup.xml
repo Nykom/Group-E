@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    	<TextView
+		android:text="New group:"
+    	android:gravity="center_horizontal"
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+		<EditText  
+		android:id="@+id/createGroupName"  
+        android:layout_height="wrap_content"  
+        android:hint="Groupname..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/>  
+
+		<EditText  
+        android:id="@+id/createGroupCourse"  
+        android:layout_height="wrap_content"  
+        android:hint="Course..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/> 
+        
+        <EditText  
+        android:id="@+id/createGroupInformation"  
+        android:layout_height="wrap_content"  
+        android:hint="Information..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/> 
+        
+        <LinearLayout
+       	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1">
+        	<Button
+	        android:id="@+id/okay"
+    	    android:text="Okay"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+    	    android:clickable="true"
+        	/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>

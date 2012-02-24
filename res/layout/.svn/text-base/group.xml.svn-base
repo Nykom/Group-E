@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical">
+    	<TextView
+        	android:id="@+id/gruppe"
+			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content"
+        	android:text="Group:"/>
+	    <TextView
+    	    android:id="@+id/veranstaltung"
+			android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+        	android:text="Course:"/>
+        	
+        <TextView 
+        	android:id="@+id/info"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"/>
+
+        <View 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="2dip" 
+        	android:background="#FFFFFFFF" />
+        				
+	</LinearLayout>
+
+    <LinearLayout
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+		<TextView
+        android:id="@+id/testgrp"
+        android:textSize="16dp"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:text="Members:"/>
+        
+			
+	</LinearLayout>
+	<Button
+	android:id="@+id/addMember"
+	android:text="Add member"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/configMember"
+	android:text="Admin members"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	
+	<Button
+	android:id="@+id/showAllPersons"
+	android:text="Show all persons"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/deleteGroup"
+	android:text="Delete group"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

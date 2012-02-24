@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    	<TextView
+		android:text="Create Course:"
+    	android:gravity="center_horizontal"
+    	android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+		<EditText  
+		android:id="@+id/course_name"  
+        android:layout_height="wrap_content"  
+        android:hint="Coursename..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/>  
+        
+        <EditText  
+        android:id="@+id/information"  
+        android:layout_height="wrap_content"  
+        android:hint="VAK..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/> 
+        
+        <EditText  
+        android:id="@+id/lecturername"  
+        android:layout_height="wrap_content"  
+        android:hint="Lecturername..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/>
+        
+        <EditText  
+        android:id="@+id/lectureremail"  
+        android:layout_height="wrap_content"  
+        android:hint="Lectureremail..."  
+        android:inputType="textPersonName"  
+        android:layout_width="fill_parent"/>
+        
+        <Spinner
+        android:id="@+id/groupSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />"
+        
+        <LinearLayout
+       	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1">
+        	<Button
+	        android:id="@+id/okay"
+    	    android:text="Okay"
+        	android:layout_width="fill_parent"
+       	 	android:layout_height="wrap_content"
+       		android:layout_weight="1"
+    	    android:clickable="true"
+        	/>
+			<Button
+	        android:id="@+id/show"
+    	    android:text="Show"
+        	android:layout_width="fill_parent"
+       	 	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+    	    android:clickable="true"
+        	/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>

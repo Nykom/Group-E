@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical">
+    	<TextView
+    	    android:id="@+id/veranstaltung"
+			android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+        	android:text="Course:"/>
+        	
+        <TextView 
+        	android:id="@+id/info"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="VAK:"/>
+        
+        <TextView 
+        	android:id="@+id/lecturername"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Lecturer:"/>
+        
+        <TextView 
+        	android:id="@+id/lecturermail"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Lecturer Email:"/>
+
+        <View 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="2dip" 
+        	android:background="#FFFFFFFF" />
+        				
+	</LinearLayout>
+
+    <LinearLayout
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+		<TextView
+        android:id="@+id/courseMember"
+        android:textSize="16dp"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:text="Member:"/>
+        
+			
+	</LinearLayout>
+	
+    <Button
+	android:id="@+id/writeCourseToTag"
+	android:text="Write to Tag"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>    
+	<Button
+	android:id="@+id/showAllCourseGroups"
+	android:text="Show groups"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/editCourse"
+	android:text="Edit Course"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	
+	<Button
+	android:id="@+id/showAllCourseMember"
+	android:text="Show all members"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/deleteCourse"
+	android:text="Delete course"
+	android:textSize="16dp"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

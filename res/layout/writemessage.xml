@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/reciSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:inputType="textMultiLine" />
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/buttonSend"
+		    android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+		    android:text="Send message" />
+
+		<Button
+		    android:id="@+id/buttonAbort"
+		    android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+		    android:text="Abort" />
+
+	</LinearLayout>
+
+</LinearLayout>

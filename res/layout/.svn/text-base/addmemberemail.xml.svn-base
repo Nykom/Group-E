@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    	<EditText
+    	android:id="@+id/emailAdresseInvite"
+    	android:hint="E-Mail-Address..."
+    	android:textSize="16dp"
+    	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+                
+        <Button
+        android:id="@+id/SendMailInvite"
+        android:text="send Invite..."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+                
+        <Button
+        android:id="@+id/ListenInvite"
+        android:text="listen mails..."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+        
+        <Button
+        android:id="@+id/StopListenInvite"
+        android:text="stop listening"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+        
+</LinearLayout>

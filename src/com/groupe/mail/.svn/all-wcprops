@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/mail
+END
+InviteListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/mail/InviteListener.java
+END
+MailAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/mail/MailAuthenticator.java
+END
+EmailParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/mail/EmailParser.java
+END
+MailTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ontlgroupx/svn/ontlgroupx/!svn/ver/180/trunk/Groupe123/src/com/groupe/mail/MailTransport.java
+END

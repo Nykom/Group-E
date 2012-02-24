@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GroupEActivity!</string>
+    <string name="app_name">Group E</string>
+    <string name="create_name">Group E - Gruppe Erstellen...</string>
+    <string name="lecturer_mode_app_name">Group E - Lecture Mode</string>
+    
+    
+    <string name="provider">Einen Anbieter auswählen...</string>
+    <string-array name="provider_array">
+        <item>GoogleMail</item>        
+    </string-array>
+    
+
+        
+    <string name="seekbar_from_touch">seekbar from touch</string>  
+    <string name="seekbar_tracking_on">seekbar tracking on</string>
+    <string name="seekbar_tracking_off">seekbar tracking off</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    
+    
+</resources>
